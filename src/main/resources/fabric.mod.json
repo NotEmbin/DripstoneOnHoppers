@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "driphopper",
+	"version": "${version}",
+	"name": "Dripstone On Hoppers",
+	"description": "Allows Pointed Dripstone to be placed on Hoppers",
+	"authors": [
+		"Embin"
+	],
+	"contact": {
+		"sources": "https://github.com/NotEmbin/DripstoneOnHoppers"
+	},
+	"license": "MIT",
+	"icon": "assets/driphopper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"embinmc.driphopper.DripstoneOnHoppers"
+		]
+	},
+	"mixins": [
+		"driphopper.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.8",
+		"minecraft": ">=1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

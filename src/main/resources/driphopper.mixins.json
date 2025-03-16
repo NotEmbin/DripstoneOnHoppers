@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "embinmc.driphopper.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "DripstoneMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
