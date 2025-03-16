@@ -21,6 +21,6 @@ public class DripstoneOnHoppers implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("dripstone on hoppers... what's next? air?");
+		//LOGGER.info("dripstone on hoppers... what's next? air?");
 	}
 }
